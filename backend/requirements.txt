@@ -1,0 +1,29 @@
+# Django & Core Framework
+Django>=5.0.0,<5.2.0
+djangorestframework>=3.15.1
+django-cors-headers>=4.3.1
+django-filter>=24.2
+drf-spectacular>=0.27.2
+
+# Database & Storage
+psycopg2-binary>=2.9.9
+dj-database-url>=2.1.0
+Pillow>=10.3.0
+cloudinary>=1.40.0
+
+# Security & Utilities
+python-dotenv>=1.0.1
+pytz>=2024.1
+requests>=2.31.0
+cryptography>=42.0.5
+
+# Payments
+razorpay>=1.4.1
+
+# Production & Deployment
+whitenoise>=6.6.0
+gunicorn>=22.0.0
+
+# Testing
+pytest>=8.1.1
+pytest-django>=4.8.0
