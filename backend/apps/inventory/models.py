@@ -38,3 +38,4 @@ class Inventory(models.Model):
 
     def __str__(self):
         return f"{self.product.name} - Available: {self.available_for_sale} (Total: {self.quantity})"
+

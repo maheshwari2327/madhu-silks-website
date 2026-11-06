@@ -7,3 +7,4 @@ class ProductReviewAdmin(admin.ModelAdmin):
     list_filter = ('rating', 'is_approved', 'is_verified_purchase', 'created_at')
     search_fields = ('product__name', 'user__email', 'title', 'comment')
     list_editable = ('is_approved',)
+

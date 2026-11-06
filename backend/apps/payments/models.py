@@ -56,3 +56,4 @@ class Refund(models.Model):
 
     def __str__(self):
         return f"Refund {self.razorpay_refund_id} - ₹{self.amount_in_rupees} ({self.status})"
+

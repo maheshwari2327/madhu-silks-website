@@ -26,3 +26,4 @@ class ProductAdmin(admin.ModelAdmin):
 class ProductImageAdmin(admin.ModelAdmin):
     list_display = ('product', 'view_type', 'is_primary', 'display_order', 'image_url')
     list_filter = ('view_type', 'is_primary')
+

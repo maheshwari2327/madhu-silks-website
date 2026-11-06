@@ -90,3 +90,4 @@ class ProductDetailSerializer(serializers.ModelSerializer):
             status=Product.Status.PUBLISHED
         ).exclude(id=obj.id)[:4]
         return ProductListSerializer(related, many=True, context=self.context).data
+

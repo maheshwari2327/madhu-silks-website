@@ -16,3 +16,4 @@ class OrderAdmin(admin.ModelAdmin):
     search_fields = ('order_number', 'customer_name', 'customer_email', 'customer_phone', 'shipping_pincode')
     inlines = [OrderItemInline]
     list_editable = ('order_status', 'payment_status')
+

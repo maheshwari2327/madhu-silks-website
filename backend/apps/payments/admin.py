@@ -11,3 +11,4 @@ class PaymentAdmin(admin.ModelAdmin):
 @admin.register(Refund)
 class RefundAdmin(admin.ModelAdmin):
     list_display = ('razorpay_refund_id', 'payment', 'amount_in_rupees', 'status', 'created_at')
+

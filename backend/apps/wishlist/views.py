@@ -47,3 +47,4 @@ class WishlistItemDeleteView(APIView):
         item = get_object_or_404(WishlistItem, id=pk, wishlist=wishlist)
         item.delete()
         return Response(WishlistSerializer(wishlist, context={'request': request}).data)
+

@@ -27,3 +27,4 @@ gunicorn>=22.0.0
 # Testing
 pytest>=8.1.1
 pytest-django>=4.8.0
+

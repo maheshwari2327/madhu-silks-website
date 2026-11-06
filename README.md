@@ -100,3 +100,4 @@ npm run dev
 - **Atomic Transactions & Row Locking**: Prevents overselling when multiple customers attempt to purchase the last available saree.
 - **Cryptographic Payment Verification**: Payment signatures verified with HMAC SHA256 before orders are confirmed.
 - **Card Security**: Zero storage of debit/credit card numbers or CVVs on our servers.
+

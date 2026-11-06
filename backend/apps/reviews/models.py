@@ -30,3 +30,4 @@ class ProductReview(models.Model):
 
     def __str__(self):
         return f"{self.rating}★ review by {self.user} for {self.product.name}"
+

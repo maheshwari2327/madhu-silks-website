@@ -6,3 +6,4 @@ urlpatterns = [
     path('addresses/', AddressListCreateView.as_view(), name='customer-address-list'),
     path('addresses/<int:pk>/', AddressDetailView.as_view(), name='customer-address-detail'),
 ]
+

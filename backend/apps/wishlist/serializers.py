@@ -20,3 +20,4 @@ class WishlistSerializer(serializers.ModelSerializer):
 
     def get_total_items(self, obj):
         return obj.items.count()
+

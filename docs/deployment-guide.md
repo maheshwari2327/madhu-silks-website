@@ -38,3 +38,4 @@ For VPS deployments (AWS EC2, DigitalOcean Droplet, Linode, or Hetzner Ubuntu se
   `NEXT_PUBLIC_API_URL=https://api.madhusilks.com/api/v1`
 - **Backend**: Deploy `backend/` to Railway, Render, or AWS Elastic Beanstalk using Python 3.12 with Gunicorn. Attach a Managed PostgreSQL database and set `DATABASE_URL`.
 - **Media CDN**: Add Cloudinary credentials (`CLOUDINARY_CLOUD_NAME`, `CLOUDINARY_API_KEY`, `CLOUDINARY_API_SECRET`) so high-resolution product photography is served via global edge CDN.
+

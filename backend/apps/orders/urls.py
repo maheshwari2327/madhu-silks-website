@@ -6,3 +6,4 @@ urlpatterns = [
     path('checkout/', CheckoutCreateOrderView.as_view(), name='order-checkout'),
     path('<str:order_number>/', OrderDetailView.as_view(), name='order-detail'),
 ]
+

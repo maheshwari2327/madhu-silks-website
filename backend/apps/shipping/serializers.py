@@ -10,3 +10,4 @@ class ShipmentSerializer(serializers.ModelSerializer):
             'id', 'order_number', 'awb_code', 'courier_name',
             'tracking_url', 'status', 'estimated_delivery_date', 'shipped_at', 'delivered_at'
         ]
+

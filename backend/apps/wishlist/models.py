@@ -33,3 +33,4 @@ class WishlistItem(models.Model):
 
     def __str__(self):
         return f"{self.product.name} in wishlist"
+

@@ -4,3 +4,4 @@ from .views import ProductReviewListCreateView
 urlpatterns = [
     path('<slug:slug>/', ProductReviewListCreateView.as_view(), name='product-reviews'),
 ]
+

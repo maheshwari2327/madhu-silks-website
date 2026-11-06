@@ -18,3 +18,4 @@ urlpatterns = [
     path('festive/', FestiveProductsView.as_view(), name='product-festive'),
     path('<slug:slug>/', ProductDetailView.as_view(), name='product-detail'),
 ]
+

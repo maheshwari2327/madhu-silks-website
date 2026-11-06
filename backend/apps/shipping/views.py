@@ -65,3 +65,4 @@ class TrackShipmentView(APIView):
             })
 
         return Response(ShipmentSerializer(shipment).data)
+

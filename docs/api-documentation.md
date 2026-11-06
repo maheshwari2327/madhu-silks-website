@@ -37,3 +37,4 @@ The backend exposes versioned REST APIs under the `/api/v1/` prefix with full in
 - `POST /api/v1/shipping/check-pincode/`: Real-time 6-digit Indian PIN code transit validation.
 - `GET /api/v1/shipping/track/<order_number>/`: Live courier tracking.
 - `POST /api/v1/marketing/coupons/apply/`: Validates promotional coupon codes (`FESTIVE10`, `SILK500`).
+

@@ -8,3 +8,4 @@ class WishlistAdmin(admin.ModelAdmin):
 @admin.register(WishlistItem)
 class WishlistItemAdmin(admin.ModelAdmin):
     list_display = ('wishlist', 'product', 'added_at')
+

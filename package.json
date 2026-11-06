@@ -1,0 +1,16 @@
+{
+  "name": "madhu-silks",
+  "version": "1.0.0",
+  "description": "> **Tradition Woven Into Every Thread**   > Authentic Indian Saree Retailer &bull; Jakribettu, Bantwal, Karnataka, India   > Phone: +91 73380 15172 &bull; WhatsApp: +91 87490 90701 &bull; Email: madhusilks701@gmail.com",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

@@ -17,3 +17,4 @@ class PromotionalBannerAdmin(admin.ModelAdmin):
 class NewsletterSubscriberAdmin(admin.ModelAdmin):
     list_display = ('email', 'is_active', 'subscribed_at')
     search_fields = ('email',)
+

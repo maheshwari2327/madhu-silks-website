@@ -11,3 +11,4 @@ class AddressAdmin(admin.ModelAdmin):
     list_display = ('user', 'full_name', 'phone', 'city', 'state', 'pincode', 'address_type', 'is_default')
     list_filter = ('address_type', 'is_default', 'state')
     search_fields = ('full_name', 'phone', 'city', 'pincode', 'user__email')
+

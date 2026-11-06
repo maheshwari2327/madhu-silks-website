@@ -125,3 +125,4 @@ export interface PromotionalBanner {
   position: 'HERO' | 'ANNOUNCEMENT' | 'FESTIVE' | 'BRIDAL' | 'STRIP';
   display_order: number;
 }
+

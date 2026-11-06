@@ -39,3 +39,4 @@ export function generateWhatsAppLink(productName: string, sku: string, priceInRu
   const message = `Hello Madhu Silks! I am interested in this saree.\n\nProduct: ${productName}\nSKU: ${sku}\nPrice: ${formatPrice(priceInRupees)}\nProduct Link: ${url}\n\nPlease share more details and availability.`;
   return `https://wa.me/918749090701?text=${encodeURIComponent(message)}`;
 }
+

@@ -346,3 +346,4 @@ export async function fetchProductBySlug(slug: string): Promise<Product | null> 
   }
   return FALLBACK_PRODUCTS.find(p => p.slug === slug) || null;
 }
+

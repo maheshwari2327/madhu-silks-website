@@ -53,3 +53,4 @@ class NewsletterSubscribeView(generics.CreateAPIView):
     queryset = NewsletterSubscriber.objects.all()
     serializer_class = NewsletterSubscriberSerializer
     permission_classes = [permissions.AllowAny]
+

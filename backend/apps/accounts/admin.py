@@ -20,3 +20,4 @@ class UserAdmin(BaseUserAdmin):
             'fields': ('email', 'first_name', 'last_name', 'phone', 'role', 'password', 'is_staff', 'is_active'),
         }),
     )
+

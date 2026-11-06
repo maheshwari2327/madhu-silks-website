@@ -17,3 +17,4 @@ class NewsletterSubscriberSerializer(serializers.ModelSerializer):
         model = NewsletterSubscriber
         fields = ['id', 'email', 'subscribed_at']
         read_only_fields = ['id', 'subscribed_at']
+

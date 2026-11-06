@@ -49,3 +49,4 @@ class CheckoutRequestSerializer(serializers.Serializer):
     shipping_country = serializers.CharField(max_length=100, default='India')
     delivery_notes = serializers.CharField(required=False, allow_blank=True)
     coupon_code = serializers.CharField(required=False, allow_blank=True)
+

@@ -15,3 +15,4 @@ class ProductReviewSerializer(serializers.ModelSerializer):
     def get_user_name(self, obj):
         name = obj.user.get_full_name()
         return name if name else obj.user.email.split('@')[0]
+

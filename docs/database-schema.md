@@ -23,3 +23,4 @@ The database schema is normalized and optimized for high-volume read queries, se
 | `shipping_shipment` | Courier Tracking | `order_id` (1:1), `awb_code`, `courier_name`, `tracking_url`, `status` |
 | `marketing_coupon` | Discounts & Promotions | `code` (Unique), `discount_type`, `discount_value`, `min_order_amount_paise` |
 | `core_sitesetting` | Dynamic Store Configuration | `key` (Unique), `value`, `description` |
+

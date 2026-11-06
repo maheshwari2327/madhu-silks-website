@@ -376,3 +376,4 @@ class Command(BaseCommand):
         )
 
         self.stdout.write(self.style.SUCCESS("Successfully seeded Madhu Silks database!"))
+

@@ -120,3 +120,4 @@ class FestiveProductsView(generics.ListAPIView):
             status=Product.Status.PUBLISHED,
             occasion__icontains='Festive'
         ).select_related('category').prefetch_related('images')[:12]
+

@@ -36,3 +36,4 @@ class ProductReviewListCreateView(generics.ListCreateAPIView):
             product=product,
             is_verified_purchase=is_verified
         )
+

@@ -10,3 +10,4 @@ class CartItemInline(admin.TabularInline):
 class CartAdmin(admin.ModelAdmin):
     list_display = ('id', 'user', 'session_key', 'total_items', 'subtotal_in_rupees', 'created_at')
     inlines = [CartItemInline]
+

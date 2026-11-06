@@ -21,3 +21,4 @@ class NotificationAdmin(admin.ModelAdmin):
 class AdminAuditLogAdmin(admin.ModelAdmin):
     list_display = ('user', 'action', 'resource', 'ip_address', 'timestamp')
     readonly_fields = ('user', 'action', 'resource', 'details', 'ip_address', 'timestamp')
+

@@ -65,3 +65,4 @@ class MadhuSilksBackendTests(TestCase):
         # Order amount ₹10,000 (1,000,000 paise)
         discount = coupon.calculate_discount_paise(1000000)
         self.assertEqual(discount, 100000) # 10% = ₹1,000 (100,000 paise)
+

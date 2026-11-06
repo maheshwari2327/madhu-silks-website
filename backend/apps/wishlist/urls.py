@@ -6,3 +6,4 @@ urlpatterns = [
     path('toggle/', WishlistItemToggleView.as_view(), name='wishlist-toggle'),
     path('items/<int:pk>/', WishlistItemDeleteView.as_view(), name='wishlist-delete-item'),
 ]
+

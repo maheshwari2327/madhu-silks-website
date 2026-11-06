@@ -5,3 +5,4 @@ urlpatterns = [
     path('check-pincode/', PincodeCheckView.as_view(), name='shipping-check-pincode'),
     path('track/<str:order_number>/', TrackShipmentView.as_view(), name='shipping-track'),
 ]
+

@@ -23,3 +23,4 @@ class CustomerProfileSerializer(serializers.ModelSerializer):
             'date_of_birth', 'anniversary_date', 'notes', 'created_at'
         ]
         read_only_fields = ['id', 'created_at']
+

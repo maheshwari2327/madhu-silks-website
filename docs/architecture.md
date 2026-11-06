@@ -26,3 +26,4 @@ graph TD
 2. **Deterministic Financial Accuracy**: All monetary figures are stored and calculated as **integer paise** (`price_paise`, `total_amount_paise`) to eliminate IEEE 754 floating-point rounding errors.
 3. **Inventory Concurrency Protection**: High-demand bridal and handloom sarees are protected against overselling through database atomic transactions and row-level locking (`select_for_update()`).
 4. **Resilient Local Development**: Fully functional locally with zero required external dependencies (automatic fallback SQLite database, mock payment handlers, and offline seeded saree drapes).
+

@@ -51,3 +51,4 @@ class LoginSerializer(serializers.Serializer):
             attrs['user'] = user
             return attrs
         raise serializers.ValidationError("Must include both email and password.")
+

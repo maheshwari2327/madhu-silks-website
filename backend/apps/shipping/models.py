@@ -32,3 +32,4 @@ class Shipment(models.Model):
 
     def __str__(self):
         return f"Shipment for Order #{self.order.order_number} ({self.status})"
+

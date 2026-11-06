@@ -6,3 +6,4 @@ urlpatterns = [
     path('coupons/apply/', ApplyCouponView.as_view(), name='marketing-apply-coupon'),
     path('newsletter/subscribe/', NewsletterSubscribeView.as_view(), name='marketing-newsletter'),
 ]
+
